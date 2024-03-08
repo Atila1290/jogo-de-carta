@@ -1,0 +1,49 @@
+.naipe{
+    width: 50px;
+}
+
+body{
+    background: url(./image/background.avif);
+    font-family: "Madimi One", sans-serif;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.descricao{
+    margin: 45px;
+    font-size: 20px;
+}
+
+.titulo{
+    font-size: 40px ;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+.lista-de-carta{
+    display: flex;
+    gap: 50px;    
+}
+
+
+
+.voltar{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.voltar:hover{
+    color:blueviolet;
+}
+
+
+

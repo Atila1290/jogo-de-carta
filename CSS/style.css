@@ -1,0 +1,55 @@
+body{
+    background: url(./image/background.avif);
+    font-family: "Madimi One", sans-serif;
+    color: white;
+}
+
+.resultado{
+    font-size: 10px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.regras{
+    font-size: 20px;
+}
+
+.regras:hover{
+    color: blueviolet;
+}
+
+.imagem-menu{
+    width: 100px;
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+
+#btn{
+    background-color: green;
+    padding: 20px;
+    border-style: none;
+    border-radius: 15%;
+    color: white;
+}
